@@ -1,20 +1,17 @@
 {
-    "name": "joaojorgedosanjos/buscador-cursos",
+    "name": "joaojorgedosanjos/buscador-curso",
     "description": "Projeto que busca os cursos no site da Alura",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "João Jorge"
+            "name": "Joao Jorge",
+            "email": "joaojorgedosanjos@gmail.com"
         }
     ],
-    "require": {
-        "guzzlehttp/guzzle": "^7.9",
-        "symfony/dom-crawler": "^4.2",
-        "symfony/css-selector": "^7.1"
-    },
-    "autoload" : {
-    "psr-4" : {
-        "Alura\\BuscadorDeCursos\\": "src/"
-    }
-}
+    "require": {}
 }
